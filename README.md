@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server built with Node.js, TypeScript, and React that pulls real-time cryptocurrency data and includes an interactive web dashboard, tool playground, live market matrix, and JSON-RPC protocol console.
 
+See [live version](https://mcp-crypto-server-mqlf.vercel.app)
+
 ## Features
 - **MCP Server Protocol**: Full implementation of MCP `2024-11-05` supporting `initialize`, `tools/list`, `tools/call`, and `ping`.
 - **Dual Transports**:
