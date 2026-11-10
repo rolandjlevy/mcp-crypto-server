@@ -1,0 +1,6 @@
+{
+  "name": "MCP Crypto Server & Explorer",
+  "description": "Model Context Protocol (MCP) crypto server with live JSON-RPC tool testing, real-time market data, client configuration generator, and inspector playground.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
