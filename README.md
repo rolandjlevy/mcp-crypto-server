@@ -26,7 +26,7 @@ See [live version](https://mcp-crypto-server-mqlf.vercel.app)
 ```bash
 npm run dev
 # or
-npm run ui
+npm run mcp:ui
 ```
 Navigate to `http://localhost:3000` to access the full UI testing console.
 

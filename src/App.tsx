@@ -41,8 +41,12 @@ export default function App() {
     }
   }, []);
 
+  // Poll the health endpoint so the status recovers if the server starts or restarts
+  // after the page has loaded.
   useEffect(() => {
     checkHealth();
+    const interval = setInterval(checkHealth, 5000);
+    return () => clearInterval(interval);
   }, [checkHealth]);
 
   const handlePing = async () => {
